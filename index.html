@@ -3,12 +3,34 @@
 <head>
     <title>Calculator</title>
     <style>
+
+    .numbers {
+        font-size: 16px;
+        width: 60px;
+        height: 60px;
+        margin: 6px;
+        border: 2px solid rgb(251, 166, 92);
+        background-color: #707372;
+        cursor: pointer;
+        padding: 12px;
+        box-shadow: 6px 5px 10px rgba(6, 151, 241, 0.3);
+        text-shadow: 5px 5px 10px rgba(135, 15, 11, 0.3);
+        color: white; 
+        font-weight: bold; 
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+
+    #Delete {
+        margin-left: 6px;
+        background-color: #ff0000; /* Change the DEL button's background color */
+    }
+
         #display {
             font-size: 20px;
-            background-color: #e1dddd;
+            background-color: #f1cece;
             height: 60px;
             width: 200px;
-            border: 2px solid rgb(101, 38, 195);
+            border: 2px solid rgb(8, 189, 250);
             padding: 12px;
             box-sizing: border-box;
             margin-right:16px;
@@ -19,7 +41,7 @@
             border: 6px solid rgb(56, 135, 208);
             padding: 12px;
             margin: 60px;
-            background-color: rgb(229, 240, 240);
+            background-color: rgb(38, 75, 75);
         }
 
         .numbers {
@@ -27,19 +49,21 @@
             width: 60px;
             height: 60px;
             margin: 6px;
-            border:rgb(236, 118, 15);
-            background-color: #25df2e;
+            border:rgb(251, 166, 92);
+            background-color: #34f688;
             cursor: pointer;
-            padding: 6px;
+            padding: 12px;
+            box-shadow: 6px 5px 10px  rgba(6, 151, 241, 0.3);
+            text-shadow: 5px 5px 10px rgba(135, 15, 11, 0.3);
             
         }
         #Delete{
             margin-left:6px;
         }
         .numbers:hover{
-            background: #c2f7c2;
+            background: #15ce15;
             transform:scale(1.2);
-            box-shadow: 0px 2px 4px rgba(0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgb(180, 101, 101);
         }
         
         
